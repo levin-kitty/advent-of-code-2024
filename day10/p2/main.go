@@ -19,7 +19,7 @@ func main() {
 	for i := 0; i < len(topographicMap); i++ {
 		for j := 0; j < len(topographicMap[0]); j++ {
 			if topographicMap[i][j] == '0' {
-				scores. += traverse(topographicMap, i, j)
+				scores += traverse(topographicMap, i, j)
 			}
 		}
 	}
